@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block extend_head %}
+
+{% endblock %}
+
+
+{% block content %}
+
+<h3>Django Google API Project</h3>
+
+<h2>Sign In</h2>
+
+<div class="container">
+
+  <form id="signinform" method="POST" action="/sign-in">
+    {% csrf_token %}
+    <label for="username">Username</label>
+    {{form.username}}
+
+    <label for="password">Password</label>
+    {{form.password}}
+
+    <label class="check-container">Show Passwords
+     <input type="checkbox" onclick="showPword()">
+     <span class="checkmark"></span>
+   </label>
+
+   <button type="submit">Sign in</button>
+ </form>
+
+</div>
+<h4>Made by Srishti, Sadhvi and Rahul</h4>
+{% endblock %}
+
+
+{% block extend_footer %}
+
+{% endblock %}
