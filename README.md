@@ -1,6 +1,6 @@
-# Stock Predictor 
-## Visualising and forecasting stocks using Dash
-A single-page web application using Dash (a python framework) and some machine learning models which will show stock plots based on the stock code given by the user. Also theML model will enable the user to get predicted stock prices for the date inputted by the user.
+# PathOn 
+The goal of the project was to develop a Web Application that tells us the best route to reach the destination from starting position with considering WAYPOINTS as its main feature.
+This application locates waypoints and while considering them it will tell the best route to visit all waypoints to finally the destination and it also tells step-by-step street ways to the user.
 
 - Documentation : https://drive.google.com/file/d/1gx5BCsri25RPqrfTuyTbvchfxlq6LJYv/view?usp=sharing
 
