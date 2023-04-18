@@ -26,7 +26,7 @@ This application locates waypoints and while considering them it will tell the b
 
 ### Clone project 
 ```
-https://github.com/Srishti-Kumar/..
+https://github.com/Srishti-Kumar/PathOn-Path-Finder.git
 ```
 ### Creating a virtual environment
 - unix
